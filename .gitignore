@@ -1,0 +1,14 @@
+# Build
+optimized
+dist
+generated
+
+# Dependencies
+node_modules
+
+# Icons
+!assets
+assets/**/*.svg
+
+# Yarn
+yarn-error.log
