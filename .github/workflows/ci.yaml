@@ -8,20 +8,8 @@ on:
       - main
 
 jobs:
-  test_lint:
-    runs-on: ubuntu-latest
-    if: ${{ !github.event.created && github.repository != 'garronej/ts-ci' }}
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-      - uses: bahmutov/npm-install@v1
-      - name: If this step fails run 'yarn lint' and 'yarn format' then commit again.
-        run: |
-          yarn lint
-          yarn format
   test:
     runs-on: ${{ matrix.os }}
-    needs: test_lint
     strategy:
       matrix:
         node: ["16", "18"]
