@@ -20,8 +20,8 @@
 </p>
 <p align="center">
   <a href="https://github.com/tranityproject/antasena-icons">Home</a>
-  -
-  <a href="https://github.com/tranityproject/antasena-icons">Documentation</a>
+  –
+  <a href="https://github.com/tranityproject/antasena-icons/blob/main/docs/ICON_LIST.md">Icons</a>
 </p>
 
 ## Installation
@@ -49,6 +49,8 @@ export const MyComponent = () => {
 ```
 
 Find the name of the icon you want to use. Each icon in the library is named `Icon{name}`, where `name` is the name of the icon in PascalCase. For example, the icon for the "add" action is named `IconAdd`.
+
+You can see the list of the icons in the [Icon List](https://github.com/tranityproject/antasena-icons/blob/main/docs/ICON_LIST.md) page.
 
 ## Customization
 
