@@ -9,6 +9,7 @@ node_modules
 # Icons
 !assets
 assets/**/*.svg
+assets.zip
 
 # Yarn
 yarn-error.log

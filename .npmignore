@@ -1,0 +1,23 @@
+# Build
+optimized
+generated
+
+# Dependencies
+node_modules
+
+# Icons
+assets
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Package
+.github
+docs
+scripts
+utils
+.eslintrc.js
+.gitignore
+tsconfig.json
+tsup.config.js
