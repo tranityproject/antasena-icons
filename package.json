@@ -1,6 +1,6 @@
 {
   "name": "antasena-icons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Antasena icons is a comprehensive library of React icons designed to help developers easily add scalable vector icons to their projects.",
   "keywords": [
     "react",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git://github.com/tranityproject/antasena-icons.git"
   },
-  "main": "generated/index.tsx",
+  "main": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "author": "Tranity <wahyu@tranity.id> (https://tranity.id)",
   "license": "MIT",
