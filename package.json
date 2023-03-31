@@ -1,6 +1,6 @@
 {
   "name": "antasena-icons",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Antasena icons is a comprehensive library of React icons designed to help developers easily add scalable vector icons to their projects.",
   "keywords": [
     "react",
@@ -31,6 +31,9 @@
     "format": "prettier --write \"generated/**/*.ts*\"",
     "clean": "rimraf node_modules && rimraf dist && rimraf generated && rimraf optimized"
   },
+  "files": [
+    "dist"
+  ],
   "peerDependencies": {
     "react": "^18.2.0"
   },
